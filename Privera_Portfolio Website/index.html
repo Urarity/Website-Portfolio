@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Patricia Rivera" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Portfolio Website" />
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+		<title>Patricia Rivera's Portfolio Website</title>
+		<link rel="stylesheet" media="screen" href="css/stylesheet.css" />
+		<!--[if It IE 9]>
+			<script src="script/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<img class="menu" src="images/threelines.png" alt="menu" />
+	<nav class="navbar">
+		<a href="Dreams.html">Dreams</a>
+		<a href="Hope.html">Hope</a>
+		<a href="Resume.html">Resume</a>
+	</nav>
+	<header class="head">
+		<h1>Patricia Rivera</h1>
+		<p>Portfolio Website</p>
+	</header>
+	
+	<div class="tabContainer">
+    <div class="buttonContainer">    
+		<button id="Tab-1" onclick="showPanel(0)">Navigation Table</button>
+        <button id="Tab-2" onclick="showPanel(1)">About Me</button>
+        <button id="Tab-3" onclick="showPanel(2)">My jQuery Video</button>
+    </div>
+    <div class="tabPanel">
+			<table id="Portfolio">
+			<caption id="cap">Web Portfolio Index</caption>
+		<tr>
+			<th>Navigation</th>
+			<th>Information</th>
+		</tr>
+		<tr>
+			<td>Dreams</td>
+			<td>My first inspirational site and paragraph</td>
+		</tr>
+		<tr>
+			<td>Hope</td>
+			<td>My second inspirational site and paragraph.</td>
+		</tr>
+		<tr>
+			<td>Resume </td>
+			<td>My Resume</td>	
+		</tr>
+			</table>
+	</div>
+    <div class="tabPanel">
+	<section id="left">
+	<h2><img id="Steam" src="images/steam.png" alt="Steam" /></h2>
+	<p>I love gaming to calm myself. Two of my favorite calm games being<br />
+	Stardew Valley<br />
+	<img id="StarDew_Valley" src="images/StarDewValley.jpeg" alt="StarDew Valley" /><br />
+	and <br /> 
+	Slay The Spire.<br />
+	<img id="SlayTheSpire" src="images/SlayTheSpire.jpg" alt="Slay The Spire" />
+	</p>
+	<hr class="style11"/>
+	<p>Reading is also my hobby my favorite author is<br />
+	James Paterson<br />
+	<img id="JamesPatterson" src="images/JamesPatterson.png" alt="James Patterson" /><br />
+	but currently my favorite
+	book collection is by<br />
+	James Dashner the<br />
+	Maze Runner" series.
+	<img id="MazeRunner" src="images/MazeRunnerSeries.jpg" alt="Maze Runner Series" />
+	</p>
+	</section>
+	<section id="right">
+	<img id="nerd" src="images/nerd.png" alt="nerd" />
+	<h3>I am a huge nerd. To me a nerd isn't a insult, in fact it is a compliment for me.</h3>
+	<hr class="style11"/>
+	<img id="gamingDesk" src="images/Gaming.jpeg" alt="Gaming Desk" />
+	<p>I started to get into programming ever since I was around 14 years old. Once I put my hands on my very first electronic which was a psp, I have been
+	fascinated into games, then my first computer. Since I was young I was easily fascinated but nothing has compared to my first experience with
+	electronics. This started down the path of how I want a job that I will enjoy and be around what I enjoy, computers.
+	</p>
+	<hr class="style11"/>
+	<p>I mainly only watch anime and youtube, I don't watch tv really. Realistic shows rarely interest me,(Putting aside DC movies and shows).
+	So far my favorite anime is<br />
+	My Hero Academia.
+	<img id="BNHA" src="images/BNHA.png" alt="My Hero Academia" /><br />
+	My favorite youtuber is<br />
+	Daithi De Nogla<br />
+	<img id="Daithi" src="images/Daithi.png" alt="Daithi De Nogla" />
+	</p>
+	</section>
+	</div>
+    <div class="tabPanel">
+	<a id="proof" href="https://www.youtube.com/watch?v=PzSxehu4G78">Tab credit</a>
+	<iframe id="My_Vid" width="560" height="315" src="https://www.youtube.com/embed/gwKVCajoDYo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/Java.js"></script>
+	</body>
+</html>

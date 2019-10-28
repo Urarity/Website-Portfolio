@@ -1,0 +1,469 @@
+@media {
+/**index style**/
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", sans-serif;
+  margin-top: auto;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Change Selection Text Color When Highlighting */  
+::selection  { background-color: #5FB350; 
+color: #FFBFED; }
+
+/* Style the body */
+body {
+  background-image: url(../images/cherry.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  font-family:"Comic Sans MS", sans-serif;
+  margin: 0;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+/* Header/logo Title */
+.head {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #5FB350;
+  background-color: #FFBFED;
+  color: black;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto; 
+  padding: 80px;
+  text-align: center;
+  width: 80%;
+}
+
+/** Menu Button**/
+.menu {
+	float: left;
+	width: 10%;	
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    border-color: #5FB350;
+    border-style: solid;
+    border-width: 6px;
+    background: #FFBFED;
+    color: black;
+    display: inline-block;
+    font-size: 200%;
+    margin-top: 3%;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #5FB350;
+  border-color: #FFBFED;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+/**Fancy Table Design**/
+#Portfolio {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Portfolio td, #Portfolio th {
+  border: 6px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+#Portfolio tr:nth-child(even){
+background-color: #FFBFED;
+}
+
+#Portfolio tr:nth-child(odd){
+background-color: #5FB350;
+}
+
+#Portfolio tr:hover {
+background-color: black;
+color: #5FB350;
+}
+
+#Portfolio th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: black;
+  text-align: center;
+}
+
+#cap {
+	background: #FFBFED;
+	border-style: solid;
+	border-color: #5FB350;
+	border-width: 6px;
+}
+
+/**About Me Tab Design**/
+#left {
+	border: black;
+	border-style: solid;
+	background-color: #FFBFED;
+	color: black;
+	float: left;
+	font-weight: bold;
+	height: 100%;
+	width: 50%;
+	width: 50%;
+}
+#right {
+	background-color: #FFBFED;
+	border: black;
+	border-style: solid;
+	color: black;
+	float: right;
+	font-weight: bold;
+	width: 50%;
+}
+#nerd, #Steam, #bookstack, #MazeRunner, #Daithi {
+	width: 50%;
+}
+#BNHA, #gamingDesk {
+	width: 100%;
+}
+#JamesPatterson {
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+}
+#SlayTheSpire, #StarDew_Valley {
+	height: auto;
+	width: 100%;
+}
+/**jQuery Video Design**/
+#My_Vid {
+	border-style: inset;
+	border-width: 10px;
+	border-color: #5FB350;
+	width: 100%;
+}
+/**Tab Design Proof Link**/
+#proof {
+	border: black;
+	border-style: solid;
+	background-color: #FFBFED;
+	color: black;
+	float: left;
+	text-decoration: none;
+}
+#proof:hover {
+	color: #5FB350;
+}
+/**Horizontal Rule Style**/
+hr.style11 {
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+	height: 6px;
+}
+
+/**Dream HTML Style**/
+
+/**Paragraph style**/
+#dream {
+	border-style: solid;
+	border-width: 6px;
+	border-color: #5FB350;
+	background: #FFBFED;
+	color: black;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	width: 70%;
+}
+
+/**Image Style**/
+#Youtube {
+	height: auto;
+	width: 20%;
+}
+
+/**link style**/
+#link {
+	color: black;
+	text-decoration: none;
+}
+
+#link:hover {
+	color: #5FB350;
+}
+/**Video Container**/
+.iframe-container{
+	border: 3px solid #5FB350;
+	display: none;
+	margin-top: 10px;
+	position: relative;
+	width: 50%;
+}
+
+/**first line center**/
+#First_Line {
+	font-weight: bold;
+	text-align: center;
+}
+
+/**Hope HTML style**/
+#hope {
+	border-style: solid;
+	border-width: 6px;
+	border-color: #5FB350;
+	background: #FFBFED;
+	color: black;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	text-align: center;
+	width: 70%;
+}
+
+/**For jQuery**/
+#none, #none2 {
+	display: none;
+}
+/**Paragraph Designs**/
+#Vid, #Paragraph, #Paragraph2 {
+	background-color: #5FB350;
+	color: black;
+	font-weight: bold;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+#Vid:hover, #Paragraph:hover, #Paragraph2:hover {
+	background-color: black;
+	color: #FFBFED;
+}
+/**Tab Design**/
+.tabContainer{
+    height: 100%;
+    width: 50%;
+}
+.tabContainer .buttonContainer{
+    height: 15%;
+}
+.tabContainer .buttonContainer button{
+    background-color: #5FB350;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 18px;
+    float: left;   
+	height: 100%;
+    outline:none;
+    padding: 10px;
+	width: 33%;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #FFBFED;
+	color: black;
+}
+.tabContainer .buttonContainer button:active{
+	background-color: #FFBFED;
+	color: black;
+}
+.tabContainer .tabPanel{
+    background-color: transparent;
+    box-sizing: border-box;
+    color: black;
+    display: none;
+    font-family: sans-serif;
+    font-size: 22px;
+	height: 85%;
+    padding-top: 105px;
+	text-align: center;
+	}
+}
+
+/**Image Style**/
+#Humble_Image {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/**Resume HTML Style**/
+#fixed-width-photo {
+	height: auto;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**Resume Colors**/
+.color, .color3, .color4, .color5 {
+	color: black;
+	font-weight: bold;
+}
+
+.color2 {
+	color: #B3629C;
+ }
+
+.w3-text {
+	color: black;
+	font-weight: bold;
+ }
+/**Form Style**/
+.form-style-4 {
+	color: black;
+	font-weight: bold;
+	}
+.form-style-4{
+	background: #FFBFED;
+	border: 5px solid #5FB350;
+	font-size: 16px;
+	padding: 30px 30px 15px 30px;
+	width: 100%;
+	margin-bottom:  5px;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+	color: black;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+.form-style-4 label {
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-4 label > span{
+	display: inline-block;
+	float: left;
+	width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email] 
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #5FB350;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+	width: 275px;
+}
+.form-style-4 textarea{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	font-style: italic;
+	height:20px;
+	outline: none;
+	overflow: hidden;
+	padding: 0px 0px 0px 0px;
+	resize:none;
+	width: 275px;
+}
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+	border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=Reset],
+.form-style-4 input[type=button]{
+	border: none;
+	border-radius: 5px;
+	color: black;
+	padding: 8px 10px 8px 10px;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=Reset]:hover,
+.form-style-4 input[type=button]:hover{
+ }
+
+label {
+	color: black;
+}
+.hide {
+	display: none;
+}
+
+.hide2 {
+	display: none;
+}
+@media print {
+.navbar, hr, footer {
+	display: none;
+}
+
+/**Photo Styles**/
+#fixed-width-photo {
+	margin-right: 15px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%
+}
+
+.color4 {
+    page-break-after: auto;
+}
+
+.w3-card, .w3-card-4 {
+	box-shadow: none!important;
+	}
+
+form {
+	display: none;
+}
+
+.hide {
+	display: inline;
+	float: right;
+	font-weight: bold;
+	color: black;
+}
+
+.hide2 {
+	display: inline;
+	color: black
+ }
+@page {
+	margin: 0mm; 
+ }
+}
